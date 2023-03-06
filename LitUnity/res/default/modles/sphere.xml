@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model res="sphere/sphere.obj" gamma="false">
+	<layout>
+		<element name="position" type="float" count="3"/>
+		<element name="texCoords" type="float" count="2"/>
+		<element name="normal" type="float" count="3"/>
+	</layout>
+</model>

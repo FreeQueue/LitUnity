@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<settings>
+		<skybox shader=""/>
+	</settings>
+	<objects>
+		<object name="camera">
+			<components>
+				<camera/>
+			</components>
+		</object>
+		<object name="model" active="true" position="5" rotation="0" scale="1">
+			<components>
+				<modelRenderer model="cube" material="default"/>
+			</components>
+			<objects>
+				<object name="child" active="true" position="5" rotation="0" scale="1">
+					<components>
+						<modelRenderer model="cube" material="default"/>
+					</components>
+				</object>
+			</objects>
+		</object>
+	</objects>
+</root>

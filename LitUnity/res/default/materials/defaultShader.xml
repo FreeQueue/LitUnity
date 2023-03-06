@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material vs="UnlitShader/unlit.vs.glsl" fs="UnlitShader/unlit.fs.glsl">
+	<data vec4="1,1,1">main_color</data>
+	<data bool="false">useTex</data>
+</material>
